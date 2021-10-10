@@ -1,0 +1,39 @@
+.auth-nav-2 
+.portfolio-post {
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+&:hover,
+&:focus {
+color: var(--accent-color);
+}
+}
+
+
+
+.auth-nav-2
+.portfolio-number {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+  color: #757575;
+
+  &:hover,
+  &:focus {
+color: var(--accent-color);
+}
+
+  }
+
+.portfolio-number,
+.portfolio-post {
+  color: var(--caption-text-color);
+}

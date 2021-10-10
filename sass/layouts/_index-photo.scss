@@ -1,0 +1,20 @@
+
+.index-photo-section {
+    padding-top: 0;
+  }
+  
+  @media screen and (max-width: 1119px) {
+    .index-photo-section {
+      display: none;
+    }
+  }
+  .index-photo-item {
+    --grid-item: 3;
+    margin-left: 30px;
+    position: relative;
+  }
+  
+  .index-photo-item {
+    flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
+  }
+  
