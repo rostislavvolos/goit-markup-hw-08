@@ -1,6 +1,5 @@
 .page-header {
   background-color: #ffffff;
-  padding: 10px 0;
   border-bottom: 1px solid #ececec;
 }
 
@@ -24,11 +23,26 @@
 }
 }
 
+.open-menu-icon:hover,
+.open-menu-icon::focus {
+ fill: #2196f3;
+}
+
+.mobile-menu-link:hover {
+  color: #2196f3;
+}
+.mobile-menu-link:focus {
+  color: #2196f3;
+}
+
 @media screen and (min-width: 768px) {
 .open-menu-btn {
     display: none;
 }
 }
+
+
+
 
 @media screen and (max-width: 767px) {
 .open-menu-btn, .mobile-menu-close-btn {
@@ -55,6 +69,8 @@
     line-height: 0;
 }
 }
+
+
 
   .hero {
     background-image:
@@ -183,6 +199,10 @@
     text-decoration: none;
 }
 
+.mobile-menu-link {}
+
+
+
 .mobile-contact {
   font-weight: 500;
   font-size: 20px;
@@ -192,6 +212,17 @@
   color: #757575;
   text-decoration: none;
 }
+
+@media screen and (min-width: 480px) {
+  .mobile-contact {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1.17;
+      letter-spacing: 0.02em;
+      margin-bottom: 32px;
+      color: #757575;
+  }
+  }
 
 .current-contact {
   margin-bottom: 32px;
@@ -261,12 +292,15 @@
           opacity: 1;
           visibility: visible;
           pointer-events: auto;
+          z-index: 60;
         }
         @media screen and (min-width: 768px) {
       .mobile-menu {
     display: none;
       }
     }
+
+    
 
    
 

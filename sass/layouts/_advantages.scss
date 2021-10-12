@@ -39,9 +39,16 @@
 
   .advantages-content {
     flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
+    margin-bottom: 30px;
   }
 
+  @media screen and (min-width: 1200px) {
+    .advantages-content {
+    margin-bottom: 0;
+    }
+  }
   .advantages-list-count {
+    text-align: center;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -50,6 +57,12 @@
     margin-bottom: 10px ;
     
     color: var(--caption-text-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+.advantages-title {
+    text-align: start;
+}
   }
 
   .advantages-p {
