@@ -72,7 +72,6 @@
   @media screen and (min-width: 768px) {
     .auth-nav {
     flex-direction: column;
-    padding: 22px 0;
 }
     }
 
@@ -84,10 +83,12 @@
   }
 
   @media screen and (min-width: 1200px) {
-.auth-nav {
-    flex-direction: row
-}
+    .auth-nav {
+      flex-direction: row;
+    }
+    
   }
+
 
   @media screen and (min-width: 1200px) {
 .contact-info-item:not(:first-child) {

@@ -59,8 +59,15 @@
     color: var(--caption-text-color);
   }
 
+  @media screen and (min-width: 768px) {
+    .advantages-list-count {
+        text-align: start;
+    }
+      }
+  
+  
   @media screen and (min-width: 1200px) {
-.advantages-title {
+.advantages-list-count {
     text-align: start;
 }
   }
