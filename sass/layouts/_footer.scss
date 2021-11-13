@@ -67,12 +67,14 @@ margin-right: 10px;
 .footer-widget {
   // flex-basis: calc((100% - 30px) / 2);
   text-align: center;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
   .footer-widget {
     align-items: baseline;
     flex-basis: calc((100% - 30px) / 2);
+    margin-bottom: 0;
   }
 
   .footer-widget-wrapper {
@@ -129,7 +131,6 @@ margin-right: 10px;
 }
 
 .footer-social-network {
-  margin-bottom: 60px;
   display: inline-flex;
 }
 
